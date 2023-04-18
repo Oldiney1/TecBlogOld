@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+#area-cabecalho {
+    background-color: #f16464;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+ #area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #f16464;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #f70000;
+    background: #FFF;
+    text-decoration: none;
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f16464;
+}
+
+h3 {
+    color: #ffffff;
+    background: #f16464;
+    padding: 5px;
+}
+
+.branco{
+    color: white;
+}
+
+
+fieldset {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+    
+legend {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+    
+.inputBox {
+    position: relative;
+}
+    
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+    
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+    
+.inptUser:focus ~.labelInput,
+.inputUser:valid ~.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+    
+   
+#submit {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(65, 59, 59));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+    
+#submit:hover {
+    background-image: linear-gradient(to right, rgb(228, 118, 118), rgb(228, 118, 118))
+}
